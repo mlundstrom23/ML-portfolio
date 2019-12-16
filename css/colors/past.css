@@ -24,7 +24,7 @@
 	background: rgb(90, 223, 155);
 }
 .service_area {
-	background: rgb(90, 223, 155);
+	background: rgba(90, 223, 154, 0.50);
 }
 .portfolio_area .porfolio_menu .causes_filter li a::before {
 	background: rgb(90, 223, 155);

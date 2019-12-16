@@ -14,17 +14,17 @@
 	color: #f497be;
 }
 .education_area .education_inner_area .education_item::before {
-	border: 4px solid #fe4795;
+	border: 4px solid #f497be;
 	background: #f497be;
 }
 .education_area .education_inner_area .education_item::after {
-	background: #fe4795;
+	background: #f497be;
 }
 .education_area .education_inner_area::before {
-	background: #fe4795;
+	background: #f497be;
 }
 .service_area {
-	background: #f497be;
+	background: #f497be77;
 }
 .portfolio_area .porfolio_menu .causes_filter li a::before {
 	background: #f497be;
