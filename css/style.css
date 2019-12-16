@@ -398,13 +398,13 @@ body, p, h1, h2, h3, h4, h5, h6 {
   height: 40px;
   width: 40px;
   text-align: center;
-  border: 1px solid #677fb5;
+  border: 1px solid #007ab9;
   display: block;
   line-height: 40px;
   font-size: 18px;
   border-radius: 5px;
   transition: all 400ms linear 0s;
-  color: #677fb5;
+  color: #007ab9;
 }
 
 .social_icon li:nth-child(2) a {
@@ -484,7 +484,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .social_icon li:hover a {
-  background: #677fb5;
+  background: #007ab9;
   color: #fff;
 }
 
@@ -731,9 +731,13 @@ body, p, h1, h2, h3, h4, h5, h6 {
   margin-bottom: -90px;
 }
 
+.education_area .education_inner_area .education_item:nth-child(2) {
+  margin-top: 108px;
+}
+
 .education_area .education_inner_area .education_item:nth-child(4) {
   float: right;
-  margin-top: 150px;
+  margin-top: 190px;
 }
 
 .education_area .education_inner_area .education_item:nth-child(even):before {
@@ -743,15 +747,15 @@ body, p, h1, h2, h3, h4, h5, h6 {
 
 .education_area .education_inner_area .education_item:nth-child(even):after {
   left: -78px;
-  
 }
 
 .education_area .education_inner_area .education_item:nth-child(odd) {
   float: left;
 }
 
-.education_area .education_inner_area .education_item:nth-child(2) {
-  margin-top: 108px;
+.education_area .education_inner_area .education_item:nth-child(3) {
+  float: left;
+  margin-top: 250px;
 }
 
 .education_area .education_inner_area .education_item:last-child {
@@ -862,6 +866,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
   font-weight: bold;
   line-height: 36px;
+  text-transform: uppercase;
   position: relative;
   display: inline-block;
 }
@@ -947,14 +952,26 @@ body, p, h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   color: #333333;
   text-transform: uppercase;
-  padding: 18px 0px 10px 0px;
+  padding-top: 18px;
+}
+
+.portfolio_area .portfolio_list_inner .portfolio_item .portfolio_title .quote h5 {
+  font-size: 14px;
+  font-family: "Raleway", sans-serif;
+  font-style: italic;
+  color: #666666;
+  line-height: 20px;
+  padding: 18px 18px 0px 18px;
+  text-align: center;
 }
 
 .portfolio_area .portfolio_list_inner .portfolio_item .portfolio_title h5 {
   font-size: 14px;
   font-family: "Raleway", sans-serif;
   color: #666666;
-  padding-bottom: 18px;
+  line-height: 20px;
+  padding: 18px;
+  text-align: center;
 }
 
 .portfolio_area .portfolio_list_inner .portfolio_item:hover .portfolio_img:before {
@@ -1408,7 +1425,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .footer_inner ul li a {
-  background: #677fb5;
+  background: #007ab9;
   color: #fff;
 }
 
