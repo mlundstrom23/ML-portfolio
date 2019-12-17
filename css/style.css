@@ -132,18 +132,6 @@ body, p, h1, h2, h3, h4, h5, h6 {
   padding: 0px 23px;
 }
 
-.footer h2 {
-  font-size: 46px;
-  font-family: "Bree Serif", serif;
-  color: #fec608;
-  text-transform: uppercase;
-  text-align: center;
-  border: 1px solid #fec608;
-  display: inline-block;
-  line-height: 58px;
-  padding: 0px 23px;
-}
-
 /* End Main title css
 ============================================================================================ */
 #preloader {
@@ -339,11 +327,12 @@ body, p, h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
   font-weight: bold;
-  padding-bottom: 10px;
+  padding-bottom: 0px;
 }
 
 .about_person_area .person_details h3 span {
   color: #fec608;
+  padding-bottom: 20px;
 }
 
 .about_person_area .person_details h4 {
@@ -351,6 +340,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
   font-weight: bold;
   color: #666666;
+  padding-top: 10px;
   padding-bottom: 15px;
 }
 
@@ -475,12 +465,13 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .social_icon li:last-child a {
-  color: #faaa5e;
-  border-color: #faaa5e;
+  color: #c42a2a;
+  border-color: #c42a2a;
 }
 
 .social_icon li:last-child:hover a {
-  background: #faaa5e;
+  background: #c42a2a;
+  color: #fff;
 }
 
 .social_icon li:hover a {
@@ -1424,9 +1415,22 @@ body, p, h1, h2, h3, h4, h5, h6 {
   margin-bottom: 40px;
 }
 
+.footer h2 {
+  font-size: 34px;
+  font-family: "Bree Serif", serif;
+  color: #fec608;
+  text-transform: uppercase;
+  text-align: center;
+  /*border: 1px solid #fec608;*/
+  border-radius: 5px;
+  display: inline-block;
+  line-height: 58px;
+  padding: 0px 18px;
+}
+
 .footer_inner ul li a {
-  background: #007ab9;
-  color: #fff;
+  background: transparent;
+  color:#007ab9;
 }
 
 .footer_inner ul li:nth-child(2) a {
@@ -1470,8 +1474,8 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .footer_inner ul li:last-child a {
-  background: #faaa5e;
-  color: #fff;
+  background: transparent;
+  color: #c42a2a;
 }
 
 .footer_copyright {

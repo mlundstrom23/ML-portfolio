@@ -80,7 +80,6 @@
 }
 .footer h2 {
 	color: rgb(90, 223, 155);
-	border: 1px solid rgb(90, 223, 155);
 }
 .footer_copyright .pull-right .navbar-nav li:hover a, .footer_copyright .pull-right .navbar-nav li.active a {
 	color: rgb(90, 223, 155);
